@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+.ordersTable td {
+ 
+	padding: 0.5em;
+ 	border: 2px solid black;
+ 	border-collapse: collapse;
+ 	
+}
+
+.ordersTable th {
+	padding: 0.5em;
+	border: 2px solid black;
+	border-collapse: collapse;
+
+    
+}
+
+.ordersTable{
+	text-align:center;
+	border: none;
+	border-collapse: collapse;
+       	  
+}
+
+.ordersTableHeader{
+	text-align:center;
+	background-color: #847eeb;
+	font-size: 20px;
+
+}
+
+
+.ordersOddRow{
+	text-align:center;
+	background-color: #d5d3f8;
+	
+}
+.ordersEvenRow{
+	text-align:center;
+	background-color: #d5d3f8;
+	
+}
+
+.ordersTable td:hover{
+	background-color: #dfacf4;
+}
+
