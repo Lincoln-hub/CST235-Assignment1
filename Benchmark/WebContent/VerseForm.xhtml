@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head></h:head> 
+<h:body> 
+		<h2>Search for a verse by entering the information below. The first Letter of the Book must be upper case!</h2><br/>
+		<div>
+		<h:form>
+
+			    Book Name: <h:inputText value="#{scripture.book}" title="" id="book"/><br/>
+				Bible Chapter: <h:inputText value="#{scripture.chpt}" title="" id="chpt"/><br/>
+				Bible Verse: <h:inputText value="#{scripture.verse}" title="" id="verse"/><br/>
+				
+				<h:commandButton action="#{formController.onSubmit(scripture)}" value="Get Verse" /> 
+		</h:form>
+		</div>
+		
+</h:body> 
+</html>
